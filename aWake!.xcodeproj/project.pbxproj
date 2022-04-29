@@ -8,12 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		4F7CA6FA281C27C4006FA7E2 /* aWake_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7CA6F9281C27C4006FA7E2 /* aWake_App.swift */; };
-		4F7CA6FE281C27C5006FA7E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F7CA6FD281C27C5006FA7E2 /* Assets.xcassets */; };
-		4F7CA701281C27C5006FA7E2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F7CA700281C27C5006FA7E2 /* Preview Assets.xcassets */; };
 		4F7CA726281C27D8006FA7E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F7CA707281C27D8006FA7E2 /* Assets.xcassets */; };
 		4F7CA727281C27D8006FA7E2 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7CA709281C27D8006FA7E2 /* Extensions.swift */; };
 		4F7CA728281C27D8006FA7E2 /* NotificationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7CA70A281C27D8006FA7E2 /* NotificationHandler.swift */; };
-		4F7CA729281C27D8006FA7E2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F7CA70C281C27D8006FA7E2 /* Preview Assets.xcassets */; };
 		4F7CA72A281C27D8006FA7E2 /* TestTasksCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7CA70E281C27D8006FA7E2 /* TestTasksCards.swift */; };
 		4F7CA72B281C27D8006FA7E2 /* AddAlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7CA70F281C27D8006FA7E2 /* AddAlarmView.swift */; };
 		4F7CA72C281C27D8006FA7E2 /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7CA710281C27D8006FA7E2 /* TaskView.swift */; };
@@ -37,12 +34,9 @@
 /* Begin PBXFileReference section */
 		4F7CA6F6281C27C4006FA7E2 /* aWake!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "aWake!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F7CA6F9281C27C4006FA7E2 /* aWake_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aWake_App.swift; sourceTree = "<group>"; };
-		4F7CA6FD281C27C5006FA7E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4F7CA700281C27C5006FA7E2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4F7CA707281C27D8006FA7E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../../../../Desktop/untitled folder/Assets.xcassets"; sourceTree = "<group>"; };
 		4F7CA709281C27D8006FA7E2 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		4F7CA70A281C27D8006FA7E2 /* NotificationHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationHandler.swift; sourceTree = "<group>"; };
-		4F7CA70C281C27D8006FA7E2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4F7CA70E281C27D8006FA7E2 /* TestTasksCards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestTasksCards.swift; sourceTree = "<group>"; };
 		4F7CA70F281C27D8006FA7E2 /* AddAlarmView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddAlarmView.swift; sourceTree = "<group>"; };
 		4F7CA710281C27D8006FA7E2 /* TaskView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
@@ -98,21 +92,10 @@
 				4F7CA713281C27D8006FA7E2 /* DataStorage.swift */,
 				4F7CA71D281C27D8006FA7E2 /* Models */,
 				4F7CA708281C27D8006FA7E2 /* Parameters */,
-				4F7CA70B281C27D8006FA7E2 /* Preview Content */,
 				4F7CA714281C27D8006FA7E2 /* ViewModels */,
 				4F7CA70D281C27D8006FA7E2 /* Views */,
-				4F7CA6FD281C27C5006FA7E2 /* Assets.xcassets */,
-				4F7CA6FF281C27C5006FA7E2 /* Preview Content */,
 			);
 			path = "aWake!";
-			sourceTree = "<group>";
-		};
-		4F7CA6FF281C27C5006FA7E2 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				4F7CA700281C27C5006FA7E2 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		4F7CA708281C27D8006FA7E2 /* Parameters */ = {
@@ -122,15 +105,6 @@
 				4F7CA70A281C27D8006FA7E2 /* NotificationHandler.swift */,
 			);
 			path = Parameters;
-			sourceTree = "<group>";
-		};
-		4F7CA70B281C27D8006FA7E2 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				4F7CA70C281C27D8006FA7E2 /* Preview Assets.xcassets */,
-			);
-			name = "Preview Content";
-			path = "../../../../../../Desktop/untitled folder/Preview Content";
 			sourceTree = "<group>";
 		};
 		4F7CA70D281C27D8006FA7E2 /* Views */ = {
@@ -245,10 +219,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F7CA729281C27D8006FA7E2 /* Preview Assets.xcassets in Resources */,
-				4F7CA701281C27C5006FA7E2 /* Preview Assets.xcassets in Resources */,
 				4F7CA726281C27D8006FA7E2 /* Assets.xcassets in Resources */,
-				4F7CA6FE281C27C5006FA7E2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
