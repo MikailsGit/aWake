@@ -8,17 +8,59 @@
 
 /* Begin PBXBuildFile section */
 		4F7CA6FA281C27C4006FA7E2 /* aWake_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7CA6F9281C27C4006FA7E2 /* aWake_App.swift */; };
-		4F7CA6FC281C27C4006FA7E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7CA6FB281C27C4006FA7E2 /* ContentView.swift */; };
 		4F7CA6FE281C27C5006FA7E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F7CA6FD281C27C5006FA7E2 /* Assets.xcassets */; };
 		4F7CA701281C27C5006FA7E2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F7CA700281C27C5006FA7E2 /* Preview Assets.xcassets */; };
+		4F7CA726281C27D8006FA7E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F7CA707281C27D8006FA7E2 /* Assets.xcassets */; };
+		4F7CA727281C27D8006FA7E2 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7CA709281C27D8006FA7E2 /* Extensions.swift */; };
+		4F7CA728281C27D8006FA7E2 /* NotificationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7CA70A281C27D8006FA7E2 /* NotificationHandler.swift */; };
+		4F7CA729281C27D8006FA7E2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F7CA70C281C27D8006FA7E2 /* Preview Assets.xcassets */; };
+		4F7CA72A281C27D8006FA7E2 /* TestTasksCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7CA70E281C27D8006FA7E2 /* TestTasksCards.swift */; };
+		4F7CA72B281C27D8006FA7E2 /* AddAlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7CA70F281C27D8006FA7E2 /* AddAlarmView.swift */; };
+		4F7CA72C281C27D8006FA7E2 /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7CA710281C27D8006FA7E2 /* TaskView.swift */; };
+		4F7CA72D281C27D8006FA7E2 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7CA711281C27D8006FA7E2 /* MainView.swift */; };
+		4F7CA72F281C27D8006FA7E2 /* DataStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7CA713281C27D8006FA7E2 /* DataStorage.swift */; };
+		4F7CA730281C27D8006FA7E2 /* DaysCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7CA715281C27D8006FA7E2 /* DaysCard.swift */; };
+		4F7CA731281C27D8006FA7E2 /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7CA717281C27D8006FA7E2 /* SpeechRecognizer.swift */; };
+		4F7CA732281C27D8006FA7E2 /* VoiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7CA718281C27D8006FA7E2 /* VoiceView.swift */; };
+		4F7CA733281C27D8006FA7E2 /* StepsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7CA719281C27D8006FA7E2 /* StepsView.swift */; };
+		4F7CA734281C27D8006FA7E2 /* QRCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7CA71A281C27D8006FA7E2 /* QRCodeView.swift */; };
+		4F7CA735281C27D8006FA7E2 /* SpeechButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7CA71B281C27D8006FA7E2 /* SpeechButton.swift */; };
+		4F7CA736281C27D8006FA7E2 /* TasksCardsCreate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7CA71C281C27D8006FA7E2 /* TasksCardsCreate.swift */; };
+		4F7CA737281C27D8006FA7E2 /* TasksLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7CA71E281C27D8006FA7E2 /* TasksLevel.swift */; };
+		4F7CA738281C27D8006FA7E2 /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7CA71F281C27D8006FA7E2 /* Timer.swift */; };
+		4F7CA739281C27D8006FA7E2 /* QRCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7CA721281C27D8006FA7E2 /* QRCode.swift */; };
+		4F7CA73A281C27D8006FA7E2 /* Voice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7CA722281C27D8006FA7E2 /* Voice.swift */; };
+		4F7CA73B281C27D8006FA7E2 /* TasksDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7CA723281C27D8006FA7E2 /* TasksDate.swift */; };
+		4F7CA73C281C27D8006FA7E2 /* TasksDays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7CA724281C27D8006FA7E2 /* TasksDays.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4F7CA6F6281C27C4006FA7E2 /* aWake!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "aWake!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F7CA6F9281C27C4006FA7E2 /* aWake_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aWake_App.swift; sourceTree = "<group>"; };
-		4F7CA6FB281C27C4006FA7E2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4F7CA6FD281C27C5006FA7E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F7CA700281C27C5006FA7E2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4F7CA707281C27D8006FA7E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../../../../Desktop/untitled folder/Assets.xcassets"; sourceTree = "<group>"; };
+		4F7CA709281C27D8006FA7E2 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		4F7CA70A281C27D8006FA7E2 /* NotificationHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationHandler.swift; sourceTree = "<group>"; };
+		4F7CA70C281C27D8006FA7E2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4F7CA70E281C27D8006FA7E2 /* TestTasksCards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestTasksCards.swift; sourceTree = "<group>"; };
+		4F7CA70F281C27D8006FA7E2 /* AddAlarmView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddAlarmView.swift; sourceTree = "<group>"; };
+		4F7CA710281C27D8006FA7E2 /* TaskView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
+		4F7CA711281C27D8006FA7E2 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		4F7CA713281C27D8006FA7E2 /* DataStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataStorage.swift; sourceTree = "<group>"; };
+		4F7CA715281C27D8006FA7E2 /* DaysCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DaysCard.swift; sourceTree = "<group>"; };
+		4F7CA717281C27D8006FA7E2 /* SpeechRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
+		4F7CA718281C27D8006FA7E2 /* VoiceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoiceView.swift; sourceTree = "<group>"; };
+		4F7CA719281C27D8006FA7E2 /* StepsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StepsView.swift; sourceTree = "<group>"; };
+		4F7CA71A281C27D8006FA7E2 /* QRCodeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeView.swift; sourceTree = "<group>"; };
+		4F7CA71B281C27D8006FA7E2 /* SpeechButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeechButton.swift; sourceTree = "<group>"; };
+		4F7CA71C281C27D8006FA7E2 /* TasksCardsCreate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TasksCardsCreate.swift; sourceTree = "<group>"; };
+		4F7CA71E281C27D8006FA7E2 /* TasksLevel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TasksLevel.swift; sourceTree = "<group>"; };
+		4F7CA71F281C27D8006FA7E2 /* Timer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
+		4F7CA721281C27D8006FA7E2 /* QRCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCode.swift; sourceTree = "<group>"; };
+		4F7CA722281C27D8006FA7E2 /* Voice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Voice.swift; sourceTree = "<group>"; };
+		4F7CA723281C27D8006FA7E2 /* TasksDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TasksDate.swift; sourceTree = "<group>"; };
+		4F7CA724281C27D8006FA7E2 /* TasksDays.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TasksDays.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +94,13 @@
 			isa = PBXGroup;
 			children = (
 				4F7CA6F9281C27C4006FA7E2 /* aWake_App.swift */,
-				4F7CA6FB281C27C4006FA7E2 /* ContentView.swift */,
+				4F7CA707281C27D8006FA7E2 /* Assets.xcassets */,
+				4F7CA713281C27D8006FA7E2 /* DataStorage.swift */,
+				4F7CA71D281C27D8006FA7E2 /* Models */,
+				4F7CA708281C27D8006FA7E2 /* Parameters */,
+				4F7CA70B281C27D8006FA7E2 /* Preview Content */,
+				4F7CA714281C27D8006FA7E2 /* ViewModels */,
+				4F7CA70D281C27D8006FA7E2 /* Views */,
 				4F7CA6FD281C27C5006FA7E2 /* Assets.xcassets */,
 				4F7CA6FF281C27C5006FA7E2 /* Preview Content */,
 			);
@@ -65,6 +113,78 @@
 				4F7CA700281C27C5006FA7E2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4F7CA708281C27D8006FA7E2 /* Parameters */ = {
+			isa = PBXGroup;
+			children = (
+				4F7CA709281C27D8006FA7E2 /* Extensions.swift */,
+				4F7CA70A281C27D8006FA7E2 /* NotificationHandler.swift */,
+			);
+			path = Parameters;
+			sourceTree = "<group>";
+		};
+		4F7CA70B281C27D8006FA7E2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4F7CA70C281C27D8006FA7E2 /* Preview Assets.xcassets */,
+			);
+			name = "Preview Content";
+			path = "../../../../../../Desktop/untitled folder/Preview Content";
+			sourceTree = "<group>";
+		};
+		4F7CA70D281C27D8006FA7E2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4F7CA70E281C27D8006FA7E2 /* TestTasksCards.swift */,
+				4F7CA70F281C27D8006FA7E2 /* AddAlarmView.swift */,
+				4F7CA710281C27D8006FA7E2 /* TaskView.swift */,
+				4F7CA711281C27D8006FA7E2 /* MainView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4F7CA714281C27D8006FA7E2 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				4F7CA715281C27D8006FA7E2 /* DaysCard.swift */,
+				4F7CA716281C27D8006FA7E2 /* ChallengesViews */,
+				4F7CA71B281C27D8006FA7E2 /* SpeechButton.swift */,
+				4F7CA71C281C27D8006FA7E2 /* TasksCardsCreate.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		4F7CA716281C27D8006FA7E2 /* ChallengesViews */ = {
+			isa = PBXGroup;
+			children = (
+				4F7CA717281C27D8006FA7E2 /* SpeechRecognizer.swift */,
+				4F7CA718281C27D8006FA7E2 /* VoiceView.swift */,
+				4F7CA719281C27D8006FA7E2 /* StepsView.swift */,
+				4F7CA71A281C27D8006FA7E2 /* QRCodeView.swift */,
+			);
+			path = ChallengesViews;
+			sourceTree = "<group>";
+		};
+		4F7CA71D281C27D8006FA7E2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4F7CA71E281C27D8006FA7E2 /* TasksLevel.swift */,
+				4F7CA71F281C27D8006FA7E2 /* Timer.swift */,
+				4F7CA720281C27D8006FA7E2 /* ChallengesModels */,
+				4F7CA723281C27D8006FA7E2 /* TasksDate.swift */,
+				4F7CA724281C27D8006FA7E2 /* TasksDays.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4F7CA720281C27D8006FA7E2 /* ChallengesModels */ = {
+			isa = PBXGroup;
+			children = (
+				4F7CA721281C27D8006FA7E2 /* QRCode.swift */,
+				4F7CA722281C27D8006FA7E2 /* Voice.swift */,
+			);
+			path = ChallengesModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +245,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F7CA729281C27D8006FA7E2 /* Preview Assets.xcassets in Resources */,
 				4F7CA701281C27C5006FA7E2 /* Preview Assets.xcassets in Resources */,
+				4F7CA726281C27D8006FA7E2 /* Assets.xcassets in Resources */,
 				4F7CA6FE281C27C5006FA7E2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +259,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F7CA6FC281C27C4006FA7E2 /* ContentView.swift in Sources */,
+				4F7CA73B281C27D8006FA7E2 /* TasksDate.swift in Sources */,
+				4F7CA72D281C27D8006FA7E2 /* MainView.swift in Sources */,
+				4F7CA733281C27D8006FA7E2 /* StepsView.swift in Sources */,
+				4F7CA731281C27D8006FA7E2 /* SpeechRecognizer.swift in Sources */,
+				4F7CA72C281C27D8006FA7E2 /* TaskView.swift in Sources */,
+				4F7CA72F281C27D8006FA7E2 /* DataStorage.swift in Sources */,
+				4F7CA728281C27D8006FA7E2 /* NotificationHandler.swift in Sources */,
+				4F7CA72B281C27D8006FA7E2 /* AddAlarmView.swift in Sources */,
+				4F7CA73A281C27D8006FA7E2 /* Voice.swift in Sources */,
+				4F7CA736281C27D8006FA7E2 /* TasksCardsCreate.swift in Sources */,
+				4F7CA730281C27D8006FA7E2 /* DaysCard.swift in Sources */,
+				4F7CA727281C27D8006FA7E2 /* Extensions.swift in Sources */,
+				4F7CA734281C27D8006FA7E2 /* QRCodeView.swift in Sources */,
+				4F7CA737281C27D8006FA7E2 /* TasksLevel.swift in Sources */,
+				4F7CA73C281C27D8006FA7E2 /* TasksDays.swift in Sources */,
 				4F7CA6FA281C27C4006FA7E2 /* aWake_App.swift in Sources */,
+				4F7CA72A281C27D8006FA7E2 /* TestTasksCards.swift in Sources */,
+				4F7CA738281C27D8006FA7E2 /* Timer.swift in Sources */,
+				4F7CA732281C27D8006FA7E2 /* VoiceView.swift in Sources */,
+				4F7CA739281C27D8006FA7E2 /* QRCode.swift in Sources */,
+				4F7CA735281C27D8006FA7E2 /* SpeechButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +411,10 @@
 				DEVELOPMENT_TEAM = LVG5XLW8L4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "To download the QRCode";
+				INFOPLIST_KEY_NSCameraUsageDescription = "To scan QRCode";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "To scan the voice";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "For speeching sentences";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +444,10 @@
 				DEVELOPMENT_TEAM = LVG5XLW8L4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "To download the QRCode";
+				INFOPLIST_KEY_NSCameraUsageDescription = "To scan QRCode";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "To scan the voice";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "For speeching sentences";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
