@@ -23,11 +23,11 @@ struct VoiceView: View {
     
     var body: some View {
         
-        let randomSentemce = sentences.randomElement()!
+        let randomSentence = sentences.randomElement()!
         
         VStack {
             VStack{
-                Text(randomSentemce)
+                Text(randomSentence)
                     .multilineTextAlignment(.center)
                     .font(.title2)
                     .padding(50)
@@ -45,7 +45,7 @@ struct VoiceView: View {
                 
             }.padding()
             
-            if swiftUISpeech.outputText == randomSentemce {
+            if swiftUISpeech.outputText == randomSentence {
                 Text("")
                     .onAppear {
                         self.testMic = true
