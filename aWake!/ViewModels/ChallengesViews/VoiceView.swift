@@ -15,14 +15,19 @@ struct VoiceView: View {
     
     @EnvironmentObject var swiftUISpeech : SwiftUISpeech
         
-    @State var testText = "Test"
+//    @State var testText = "Test"
     
     @State var testMic = false
     
+    @State var sentences  : [String] = ["I am awake", "I want to wake up"]
+    
     var body: some View {
+        
+        let randomSentemce = sentences.randomElement()!
+        
         VStack {
             VStack{
-                Text("Test")
+                Text(randomSentemce)
                     .multilineTextAlignment(.center)
                     .font(.title2)
                     .padding(50)
@@ -40,7 +45,7 @@ struct VoiceView: View {
                 
             }.padding()
             
-            if swiftUISpeech.outputText == testText {
+            if swiftUISpeech.outputText == randomSentemce {
                 Text("")
                     .onAppear {
                         self.testMic = true
