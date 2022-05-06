@@ -86,7 +86,6 @@ struct TaskView: View {
                             
                         default:
                             break
-                        
                         }
                     }
                 }
