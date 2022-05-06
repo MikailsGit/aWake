@@ -44,7 +44,6 @@ extension View {
             .padding(.vertical, 10)
             .overlay(Rectangle().foregroundColor(.myYellow).frame(height: 4).padding(.top, 265))
             .padding(10)
-        
     }
 }
 
