@@ -88,6 +88,7 @@ struct TaskView: View {
                             break
                         }
                     }
+                    
                 }
             }
         }
