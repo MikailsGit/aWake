@@ -81,3 +81,4 @@ class DataStorage: ObservableObject {
         self.date = UserDefaults.standard.object(forKey: "date") as? Date ?? Date()
     }
 }
+

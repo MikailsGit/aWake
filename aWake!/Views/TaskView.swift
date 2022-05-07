@@ -38,12 +38,15 @@ struct TaskView: View {
                         let _ = self.timer
                     })
                 
-                Button {
-                    deleteNotifications()
-                    start.toggle()
-                } label: {
-                    Text("STOP")
-                }
+                
+                // MARK: This is to have a button to stop the notifications, for a test purpose
+                
+                //                Button {
+                //                    deleteNotifications()
+                //                    start.toggle()
+                //                } label: {
+                //                    Text("STOP")
+                //                }
                 
                 List {
                     if dataStorage.speech == true {
@@ -85,6 +88,7 @@ struct TaskView: View {
                             break
                         }
                     }
+                    
                 }
             }
         }
