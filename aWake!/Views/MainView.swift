@@ -20,14 +20,21 @@ struct MainView: View {
     
     
     @State var nowDate: Date = Date()
+    
+    // let nowDate: Date = Date()
+    
     var timer: Timer {
         Timer.scheduledTimer(withTimeInterval: 1, repeats: true) {_ in
+            
             self.nowDate = Date()
         }
     }
     
     
     var body: some View {
+        
+        
+        
         VStack {
             
             Text(countDownString(from: dataStorage.date, until: nowDate))

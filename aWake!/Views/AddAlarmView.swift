@@ -74,7 +74,8 @@ struct AddAlarmView: View {
             
             Button {
                 
-                self.nowDate = Date()
+                // TODO: Ou le problème vient de là
+                self.nowDate = Date.now
                 
                 deleteNotifications()
                 

@@ -18,8 +18,7 @@ class DataStorage: ObservableObject {
     
     
     
-    
-    
+        
     
     @Published var voiceComplete: Bool {
         didSet {
