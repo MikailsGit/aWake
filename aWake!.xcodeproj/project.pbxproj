@@ -91,7 +91,6 @@
 				4F7CA707281C27D8006FA7E2 /* Assets.xcassets */,
 				4F7CA713281C27D8006FA7E2 /* DataStorage.swift */,
 				4F7CA71D281C27D8006FA7E2 /* Models */,
-				4F7CA708281C27D8006FA7E2 /* Parameters */,
 				4F7CA714281C27D8006FA7E2 /* ViewModels */,
 				4F7CA70D281C27D8006FA7E2 /* Views */,
 			);
@@ -148,6 +147,7 @@
 				4F7CA720281C27D8006FA7E2 /* ChallengesModels */,
 				4F7CA723281C27D8006FA7E2 /* TasksDate.swift */,
 				4F7CA724281C27D8006FA7E2 /* TasksDays.swift */,
+				4F7CA708281C27D8006FA7E2 /* Parameters */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -391,6 +391,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -424,6 +425,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
